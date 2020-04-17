@@ -1,0 +1,161 @@
+
+h1 {
+  font-size: 5rem;
+  text-transform: capitalize;
+}
+h1.second {
+  font-weight: 200;
+  text-align: center;
+}
+
+h1.second span {
+	position: relative;
+	display: inline-block;
+	padding: 5px 10px ;
+	border-radius: 10px;
+  border-bottom: 1px solid mediumseagreen;
+  text-align: center;
+}
+
+h1.second span:after {
+	content: '';
+	bottom: calc(-100% - 1px);
+	margin-left: -10px;
+	display: block;
+	width: 100%; height: 100%;
+	border-radius: 10px;
+	border-top: 1px solid mediumseagreen;
+}
+.img{
+  position: absolute;
+  left: 40%;
+  width: 60px;;
+  height: 60px;
+  padding-bottom: 10px;
+}
+img {
+  border-radius: 50%;
+}
+body {  
+  height: 80%;
+  margin: 0;
+}
+#home {padding-top:50px;height:700px;color: black; background-color:whitesmoke;}
+#about {padding-top:50px;height:700px;color: black; background-color: whitesmoke;}
+#contact {padding-top:50px;height:700px;color:black; background-color:whitesmoke;}
+
+
+* {box-sizing: border-box}
+
+.container1 {
+  width: 10%;
+  background-color: #ddd;
+}
+.about .container-fluid{
+  text-align: center;
+}
+.skills {
+  text-align: right;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: white;
+}
+.line-mf {
+  width: 40px;
+  height: 5px;
+  background-color: palevioletred;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.html {width: 80%; background-color: rgb(245, 131, 194);}
+.css {width: 60%; background-color: rgb(245, 131, 194);}
+.js {width: 40%; background-color: rgb(245, 131, 194);}
+
+* {box-sizing: border-box;}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;text-align: center;
+  width: 30%;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.service-box {
+  background-color: #fff;
+  padding: 2.5rem 1.3rem;
+  border-radius: 1rem;
+  margin-bottom: 3rem;
+}
+.box-shadow, .paralax-mf, .service-box, .work-box, .card-blog {
+  box-shadow: 0 13px 8px -10px wh(0, 0, 0, 0.1);
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+
+body {font-family: Arial, Helvetica, 
+  sans-serif;}
+
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px whitesmoke;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:palevioletred;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:palevioletred;
+}
+
+.container {
+  border-radius: 0px;
+  background-color:whitesmoke;
+  padding: 20px;
+}
+
+/* Style the footer */
+.social-media img {
+  height: 50px;
+  width: 50px;
+  padding:0;
+  border-radius: 50%;
+  float: right;
+  background:rgb(73, 65, 65);
+  justify-content: space-between;
+
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background:palevioletred;
+  padding: 10px;
+}
